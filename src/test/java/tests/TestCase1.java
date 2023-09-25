@@ -21,9 +21,5 @@ public class TestCase1 extends TestBase{
         Assert.assertTrue(homePage.isHomePageVisible(), "Home page is not visible");
         homePage.signupLoginButton.click();
         Assert.assertTrue(driver.findElement(By.className("signup-form")).isDisplayed(), "New User Signup! is not visible");
-
-
-
-
     }
 }
